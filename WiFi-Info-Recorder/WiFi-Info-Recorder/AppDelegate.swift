@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  WiFi RSSI Recorder
+//  WiFi Info Recorder
 //
 //  Created by Alex Xu on 11/19/15.
-//  Copyright © 2015 Alex Xu. All rights reserved.
+//  Copyright © 2018 Pinjing "Alex" Xu. All rights reserved.
 //
 
 import Cocoa
@@ -13,11 +13,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
 
-    func applicationDidFinishLaunching(aNotification: NSNotification) {
+    func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
 
-    func applicationWillTerminate(aNotification: NSNotification) {
+    func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
 

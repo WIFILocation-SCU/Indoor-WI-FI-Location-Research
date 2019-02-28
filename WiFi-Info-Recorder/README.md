@@ -1,5 +1,5 @@
 # WiFi-Info-Recorder
-A WiFi information recorder for Mac OS X. Written in Swift 2.1.
+A WiFi information recorder for macOS. Written in Swift 2.1 (4.1 in the latest version).
 
 Initially designed for my scientific usage.
 
@@ -14,5 +14,13 @@ which contains only this WiFi AP's RSSIs info IN ONE LINE(separated by ',').
 
 So you will know which format of txt file is better for you to use in your project.
 
-IMPORTANT
-Make sure you have connected to an AP BEFORE running the program
+## UPDATE AUG 14, 2018
+Update the code to Swift 4.1 compatible.
+Executable file is under Build/Products/Debug/WiFi-Info-Recorder.app, double click to run. Tested under macOS 10.13.6, Xcode 9.4.1.
+
+## Preview
+
+<img src="./preview.png" width="50%" height="50%">
+
+## IMPORTANT
+Make sure you have connected to an AP **BEFORE** running the program
